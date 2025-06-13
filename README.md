@@ -1,5 +1,4 @@
 # Galactic-Defender-Invasi-n-Roja
-# 🚀 Galactic Defender: Invasión Roja
 
 **Galactic Defender: Invasión Roja** es un juego arcade clásico al estilo *Space Invaders*, con un toque renovado. Controlás una nave triangular azul que debe defender la Tierra del ataque de enemigos rojos que se mueven en formación. ¡Usá tus reflejos, esquivá y dispará para sobrevivir!
 
