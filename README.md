@@ -4,7 +4,7 @@
 
 ---
 
-## 🎮 ¿Cómo se juega?
+## ¿Cómo se juega?
 
 ### Controles:
 
@@ -17,7 +17,7 @@
 
 ---
 
-## 🧠 Objetivo del juego
+## Objetivo del juego
 
 - El objetivo es **eliminar a todos los enemigos rojos** antes de que lleguen al fondo de la pantalla.
 - Cada enemigo destruido suma **10 puntos** a tu puntaje.
@@ -26,24 +26,24 @@
 
 ---
 
-## 💡 Características destacadas
+## Características destacadas
 
-- ⭐ Fondo animado con estrellas que se mueven.
-- 🔵 Nave del jugador con diseño triangular moderno.
-- 🔴 Enemigos dinámicos que se mueven de lado a lado y bajan progresivamente.
-- ✅ Puntaje y vidas visibles en pantalla.
-- 🎨 Interfaz clara con textos sombreados para buena visibilidad.
+-  Fondo animado con estrellas que se mueven.
+-  Nave del jugador con diseño triangular moderno.
+-  Enemigos dinámicos que se mueven de lado a lado y bajan progresivamente.
+-  Puntaje y vidas visibles en pantalla.
+-  Interfaz clara con textos sombreados para buena visibilidad.
 
 ---
 
-## 📦 Requisitos
+## Requisitos
 
 - Python 3.x
 - Pygame (`pip install pygame`)
 
 ---
 
-## 🏁 Cómo iniciar el juego
+## Cómo iniciar el juego
 
 1. Asegurate de tener instalado Python y Pygame.
 2. Ejecutá el archivo principal del juego
