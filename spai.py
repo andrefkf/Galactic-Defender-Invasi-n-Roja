@@ -40,10 +40,9 @@ victoria = False
 class Jugador(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        # Diseño mejorado: nave triangular con un rectángulo para el cuerpo
         self.image = pygame.Surface((60, 40), pygame.SRCALPHA)
-        pygame.draw.polygon(self.image, AZUL, [(0, 40), (30, 0), (60, 40)])  # triángulo superior
-        pygame.draw.rect(self.image, (0, 100, 255), (10, 30, 40, 10))  # cuerpo
+        pygame.draw.polygon(self.image, AZUL, [(0, 40), (30, 0), (60, 40)]) 
+        pygame.draw.rect(self.image, (0, 100, 255), (10, 30, 40, 10)) 
         self.rect = self.image.get_rect()
         self.rect.centerx = ANCHO // 2
         self.rect.bottom = ALTO - 10
@@ -64,8 +63,8 @@ class Enemigo(pygame.sprite.Sprite):
     def __init__(self, x, y):
         super().__init__()
         self.image = pygame.Surface((60, 40), pygame.SRCALPHA)
-        pygame.draw.polygon(self.image, ROJO, [(0, 40), (30, 0), (60, 40)])  # triángulo superior
-        pygame.draw.rect(self.image, (150, 0, 0), (10, 30, 40, 10))  # cuerpo
+        pygame.draw.polygon(self.image, ROJO, [(0, 40), (30, 0), (60, 40)])  
+        pygame.draw.rect(self.image, (150, 0, 0), (10, 30, 40, 10)) 
         self.rect = self.image.get_rect()
         self.rect.x = x
         self.rect.y = y
@@ -84,7 +83,7 @@ class Enemigo(pygame.sprite.Sprite):
         if self.disparo_cooldown <= 0:
             bala = BalaEnemiga(self.rect.centerx, self.rect.bottom)
             grupo_balas_enemigos.add(bala)
-            self.disparo_cooldown = random.randint(90, 240)  # nuevo cooldown
+            self.disparo_cooldown = random.randint(90, 240)  
 
 class Bala(pygame.sprite.Sprite):
     def __init__(self, x, y):
