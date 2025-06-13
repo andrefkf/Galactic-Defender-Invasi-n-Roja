@@ -46,4 +46,4 @@
 ## 🏁 Cómo iniciar el juego
 
 1. Asegurate de tener instalado Python y Pygame.
-2. Ejecutá el archivo principal del juego:
+2. Ejecutá el archivo principal del juego
